@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EspressoTest</string>
+    <string name="title_home">Home</string>
+    <string name="text_home">This is home fragment</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="text_dashboard">This is dashboard fragment</string>
+
+    <string name="title_notifications">Notifications</string>
+    <string name="text_notifications">This is notifications fragment</string>
+</resources>
