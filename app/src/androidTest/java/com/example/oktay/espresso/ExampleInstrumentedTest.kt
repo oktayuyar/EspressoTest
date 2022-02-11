@@ -2,6 +2,7 @@ package com.example.oktay.espresso
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
+import androidx.test.espresso.action.ViewActions.typeText
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.rules.ActivityScenarioRule
@@ -47,7 +48,6 @@ class ExampleInstrumentedTest {
 
         onView(withId(R.id.text_home))
             .check(matches(withText(R.string.text_home)))
-
     }
 
     // open dashboard page and check elements
@@ -66,6 +66,11 @@ class ExampleInstrumentedTest {
         onView(withId(R.id.text_dashboard))
             .check(matches(withText(R.string.text_dashboard)))
 
+        onView(withId(R.id.text_username))
+            .perform(typeText("oktay uyar"))
+
+        onView(withId(R.id.text_username))
+            .check(matches(withText(R.string.username)))
     }
 
 

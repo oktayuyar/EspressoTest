@@ -4,6 +4,9 @@
     <string name="text_home">This is home fragment</string>
 
     <string name="title_dashboard">Dashboard</string>
+    <string name="text_username">Username</string>
+    <string name="username">oktay uyar</string>
+
     <string name="text_dashboard">This is dashboard fragment</string>
 
     <string name="title_notifications">Notifications</string>
